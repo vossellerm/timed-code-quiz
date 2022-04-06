@@ -10,7 +10,7 @@
   <body>
     <!-- View high scores and timer header -->
     <nav>
-      <ul>
+      <ul class="nav">
         <li><a href="#" id="highscores">View Highscores</a></li>
         <li class="time">Time: 60</li>
       </ul>
@@ -20,11 +20,13 @@
       <!-- title -->
       <h1 id="title">JavaScript Code Quiz</h1>
       <!-- instructions -->
-      <p>
-        Try to answer the following code-related questions within the time
-        limit. Keep in mind that incorrect answers will penalize your score/time
-        by ten seconds!
-      </p>
+      <div id="answers">
+        <p id="instructions">
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+      </div>
       <!-- start button -->
       <button id="startBtn">Start Quiz</button>
     </section>

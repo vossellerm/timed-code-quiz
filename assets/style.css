@@ -3,10 +3,28 @@ p {
   text-align: center;
 }
 
-ul {
+ul.nav {
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
+
+ul.choices li {
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  width: fit-content;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul.choices li:hover {
+  color: blueviolet;
+  background-color: white;
+  border: blueviolet solid 1px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #highscores {
