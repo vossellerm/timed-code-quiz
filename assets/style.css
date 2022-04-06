@@ -27,6 +27,15 @@ ul.choices li:hover {
   cursor: pointer;
 }
 
+p.correct {
+  text-align: left;
+  border-top: #adadad solid 1px;
+  margin-top: 5px;
+  padding-top: 5px;
+  color: #adadad;
+  font-style: italic;
+}
+
 #highscores {
   text-decoration: none;
 }
