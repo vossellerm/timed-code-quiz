@@ -16,6 +16,19 @@ ul {
 #startBtn {
   display: block;
   margin: auto;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#startBtn:hover {
+  color: blueviolet;
+  background-color: white;
+  border: blueviolet solid 1px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .quiz {

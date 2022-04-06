@@ -2,11 +2,14 @@
 var timeEl = document.querySelector(".time");
 
 // select elements by id
+var startBtn = document.querySelector("#startBtn");
 
 var secondsLeft = 60;
 
 // set timer function
-function setTime() {
+
+// click start button to prompt first question and start timer
+startBtn.addEventListener("click", function setTime() {
   var timerInterval = setInterval(function () {
     secondsLeft--;
     timeEl.textContent = "Time: " + secondsLeft;
@@ -17,9 +20,7 @@ function setTime() {
       // calls function to show final score and enter initials
     }
   }, 1000);
-}
-
-setTime();
+});
 
 // save initials and score
 
