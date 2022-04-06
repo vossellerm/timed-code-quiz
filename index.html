@@ -9,15 +9,25 @@
   </head>
   <body>
     <!-- View high scores and timer header -->
-    <header>
-      <div class="highscores">
-        <a href="#"></a>
-      </div>
-    </header>
-    <!-- quiz start page -->
-    <!-- title -->
-    <!-- instructions -->
-    <!-- start button -->
+    <nav>
+      <ul>
+        <li><a href="#" id="highscores">View Highscores</a></li>
+        <li class="time"></li>
+      </ul>
+    </nav>
+    <section class="quiz">
+      <!-- quiz start page -->
+      <!-- title -->
+      <h1 id="title">JavaScript Code Quiz</h1>
+      <!-- instructions -->
+      <p>
+        Try to answer the following code-related questions within the time
+        limit. Keep in mind that incorrect answers will penalize your score/time
+        by ten seconds!
+      </p>
+      <!-- start button -->
+      <button id="startBtn">Start Quiz</button>
+    </section>
     <script src="./assets/script.js"></script>
   </body>
 </html>

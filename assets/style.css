@@ -1,0 +1,24 @@
+h1,
+p {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#highscores {
+  text-decoration: none;
+}
+
+#startBtn {
+  display: block;
+  margin: auto;
+}
+
+.quiz {
+  width: 30%;
+  margin: auto;
+}
